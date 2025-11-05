@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node ./node_modules/vite/bin/vite.js build",
+  "build": "node ./node_modules/vite/bin/vite.js build --outDir build",
     "lint": "eslint .",
     "preview": "vite preview",
     "postinstall": "node -e \"try{require('fs').chmodSync('node_modules/.bin/vite',0o755)}catch(e){}\""
@@ -28,7 +28,6 @@
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^16.0.0"
+    "eslint-plugin-react-refresh": "^0.4.19",    "globals": "^16.0.0"
   }
 }
